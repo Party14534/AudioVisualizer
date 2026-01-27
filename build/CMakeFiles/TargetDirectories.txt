@@ -1,0 +1,3 @@
+/home/party14534/Code/AudioVisualizer/build/CMakeFiles/visualizer.dir
+/home/party14534/Code/AudioVisualizer/build/CMakeFiles/edit_cache.dir
+/home/party14534/Code/AudioVisualizer/build/CMakeFiles/rebuild_cache.dir

@@ -2,21 +2,25 @@
 {
   "directory": "/home/party14534/Code/AudioVisualizer/build",
   "command": "/usr/bin/c++ -DSFML_STATIC  -std=gnu++17 -o CMakeFiles/visualizer.dir/src/AudioTypes/WAV/wav.cpp.o -c /home/party14534/Code/AudioVisualizer/src/AudioTypes/WAV/wav.cpp",
-  "file": "/home/party14534/Code/AudioVisualizer/src/AudioTypes/WAV/wav.cpp"
+  "file": "/home/party14534/Code/AudioVisualizer/src/AudioTypes/WAV/wav.cpp",
+  "output": "CMakeFiles/visualizer.dir/src/AudioTypes/WAV/wav.cpp.o"
 },
 {
   "directory": "/home/party14534/Code/AudioVisualizer/build",
   "command": "/usr/bin/c++ -DSFML_STATIC  -std=gnu++17 -o CMakeFiles/visualizer.dir/src/EventHandling/handleEvents.cpp.o -c /home/party14534/Code/AudioVisualizer/src/EventHandling/handleEvents.cpp",
-  "file": "/home/party14534/Code/AudioVisualizer/src/EventHandling/handleEvents.cpp"
+  "file": "/home/party14534/Code/AudioVisualizer/src/EventHandling/handleEvents.cpp",
+  "output": "CMakeFiles/visualizer.dir/src/EventHandling/handleEvents.cpp.o"
 },
 {
   "directory": "/home/party14534/Code/AudioVisualizer/build",
   "command": "/usr/bin/c++ -DSFML_STATIC  -std=gnu++17 -o CMakeFiles/visualizer.dir/src/RenderHandling/handleRendering.cpp.o -c /home/party14534/Code/AudioVisualizer/src/RenderHandling/handleRendering.cpp",
-  "file": "/home/party14534/Code/AudioVisualizer/src/RenderHandling/handleRendering.cpp"
+  "file": "/home/party14534/Code/AudioVisualizer/src/RenderHandling/handleRendering.cpp",
+  "output": "CMakeFiles/visualizer.dir/src/RenderHandling/handleRendering.cpp.o"
 },
 {
   "directory": "/home/party14534/Code/AudioVisualizer/build",
   "command": "/usr/bin/c++ -DSFML_STATIC  -std=gnu++17 -o CMakeFiles/visualizer.dir/src/main.cpp.o -c /home/party14534/Code/AudioVisualizer/src/main.cpp",
-  "file": "/home/party14534/Code/AudioVisualizer/src/main.cpp"
+  "file": "/home/party14534/Code/AudioVisualizer/src/main.cpp",
+  "output": "CMakeFiles/visualizer.dir/src/main.cpp.o"
 }
 ]

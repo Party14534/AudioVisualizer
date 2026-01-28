@@ -10,7 +10,7 @@ set(SFML_STATIC_LIBRARIES ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Find SFML 3.0
-find_package(SFML 3.0 REQUIRED COMPONENTS Graphics Window System)
+find_package(SFML 3.0 REQUIRED COMPONENTS Graphics Window System Audio)
 
 # Auto-find all source files (modern approach)
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS "src/**/*.cpp" "src/*.cpp" "src/**/*.c" "src/*.c")
@@ -28,5 +28,6 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     SFML::Graphics
     SFML::Window
     SFML::System
+    SFML::Audio
 )
 

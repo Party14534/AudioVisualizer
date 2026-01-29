@@ -4,7 +4,6 @@
 
 AudioFile* getWav(std::string pathToFile) {
     WavHeader h;
-    AudioFile* audioFile = (AudioFile*)malloc(sizeof(AudioFile));
     
     FILE* f = fopen(pathToFile.c_str(), "r");
     
@@ -134,6 +133,8 @@ AudioFile* getWav(std::string pathToFile) {
         }
     }
 
+    AudioFile* audioFile = new AudioFile; 
+
     // Set up AudioFile
     audioFile->buffer = sf::SoundBuffer(h.PCMData,
             h.DataSize / sizeof(i16),
@@ -143,6 +144,7 @@ AudioFile* getWav(std::string pathToFile) {
     audioFile->Frequency = h.Frequency;
     audioFile->channelCount = h.NbrChannels;
     audioFile->sampleCount = h.DataSize / sizeof(i16);
+    printf("Channel stuff\n");
 
     fclose(f);
     return audioFile;
